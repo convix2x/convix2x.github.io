@@ -1,0 +1,127 @@
+body {
+    background-color: #B0C4DE;
+    background-image: url('snow.gif');
+    background-repeat: repeat-x;
+    background-position: top center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: #2F4F4F;
+    margin: 10px 0;
+    -webkit-text-size-adjust: 100%;
+}
+
+a:link {
+    color: #0000FF;
+}
+
+a:visited {
+    color: #4B0082;
+}
+
+a:hover {
+    color: #FF4500;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+#main-container {
+    width: 100%;
+    background-color: #F8F9FA;
+    border: 3px solid #4682B4;
+    -webkit-box-shadow: 5px 5px 0px rgba(70, 130, 180, 0.3);
+    box-shadow: 5px 5px 0px rgba(70, 130, 180, 0.3);
+    margin: 0 auto;
+}
+
+#header-area {
+    background: -webkit-linear-gradient(left, #4682B4 0%, #2E5B82 100%);
+    background: linear-gradient(to right, #4682B4 0%, #2E5B82 100%);
+    background-color: #2E5B82;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #4682B4;
+}
+
+#header-area h1 {
+    margin: 0;
+    font-size: 32pt;
+    text-shadow: 2px 2px 0px #B0E0E6;
+}
+
+#header-area p {
+    margin: 5px 0 0 0;
+    font-size: 10pt;
+}
+
+#sidebar-nav {
+    width: 25%;
+    background-color: #E6F2FF;
+    border-right: 1px solid #B0C4DE;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar-nav h3 {
+    margin-top: 0;
+    color: #2E5B82;
+    font-size: 14pt;
+    text-decoration: underline;
+}
+
+#sidebar-nav ul {
+    list-style-type: square;
+    margin-left: -10px;
+    padding-left: 20px;
+}
+
+#sidebar-nav li {
+    margin-bottom: 5px;
+}
+
+#sidebar-nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.whimsy-box {
+    margin-top: 20px;
+    border: 1px dashed #4682B4;
+    padding: 5px;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 8pt;
+    color: #4682B4;
+}
+
+#main-content {
+    width: 75%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#main-content h2 {
+    margin-top: 0;
+    color: #2E5B82;
+    border-left: 8px solid #B0E0E6;
+    padding-left: 10px;
+}
+
+.fun-divider {
+    text-align: center;
+    color: #B0C4DE;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+#footer-area {
+    background: -webkit-linear-gradient(left, #2E5B82 0%, #4682B4 100%);
+    background: linear-gradient(to right, #2E5B82 0%, #4682B4 100%);
+    background-color: #2E5B82;
+    padding: 5px;
+    text-align: center;
+    border-top: 2px solid #4682B4;
+}
